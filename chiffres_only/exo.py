@@ -2,7 +2,7 @@ import sys
 
 chiffre= ["0","1","2","3","4","5","6","7","8","9"]
 
-def chiffre_only(chaine):
+def chiffres_only(chaine):
    for c in chaine:
        if c not in chiffre:
            return False
@@ -20,6 +20,6 @@ def erreur():
 if __name__ == "__main__":
     arguments = sys.argv[1:]
     if verification_arguments(arguments):
-        print(chiffre_only(arguments[0]))
+        print(chiffres_only(arguments[0]))
     else:
         erreur()
