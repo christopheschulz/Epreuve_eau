@@ -6,7 +6,6 @@ arguments = sys.argv[1:]
 
 def diff_min_absolue(args):
     args.sort()
-    print(args_int)
     minimum_absolue = float('inf')
 
     for i in range(1,len(args)):
@@ -25,7 +24,8 @@ def verification_arguments(args):
 def erreur():
     print("error")
 
-if __name__ == "__main__":
+
+def main():
     try:
         args_int =[abs(int(arg)) for arg in arguments]
     except :
@@ -36,3 +36,6 @@ if __name__ == "__main__":
      
     else:
         erreur()
+
+if __name__ == "__main__":
+    main()

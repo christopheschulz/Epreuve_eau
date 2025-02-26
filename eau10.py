@@ -24,9 +24,13 @@ def verification_arguments(args):
 def erreur():
     print("error")
 
-if __name__ == "__main__":
+
+def main():
     if verification_arguments(arguments):
        print(index_wanted(arguments))
      
     else:
         erreur()
+
+if __name__ == "__main__":
+    main()

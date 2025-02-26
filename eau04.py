@@ -29,11 +29,12 @@ def est_premier(a):
             return False
     return True        
 
-    
-
-if __name__ == "__main__":
+def main():
     arguments = sys.argv[1:]
     if verification_arguments(arguments):
         print(est_prochain_premier(arguments[0]))
     else:
         erreur()
+
+if __name__ == "__main__":
+    main()

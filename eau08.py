@@ -19,9 +19,13 @@ def verification_arguments(args):
 def erreur():
     print("error")
 
-if __name__ == "__main__":
+
+def main():
     arguments = sys.argv[1:]
     if verification_arguments(arguments):
         print(chiffres_only(arguments[0]))
     else:
         erreur()
+
+if __name__ == "__main__":
+    main()

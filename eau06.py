@@ -1,6 +1,7 @@
 # Majuscule sur deux
 
 import sys
+
 def une_maj_sur_deux(chaine:str):
     maj = 0
     chaine_modifiée = ""
@@ -26,9 +27,13 @@ def verification_arguments(args):
 def erreur():
     print("error")
 
-if __name__ == "__main__":
+
+def main():
     arguments = sys.argv[1:]
     if verification_arguments(arguments):
         print(une_maj_sur_deux(arguments[0]))
     else:
         erreur()
+
+if __name__ == "__main__":
+    main()

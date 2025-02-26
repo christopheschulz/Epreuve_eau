@@ -19,8 +19,7 @@ def erreur():
     print("error")
     exit()
 
-
-if __name__ == "__main__":
+def main():
     arguments = sys.argv[1:]
     try:
         args_int =[abs(int(arg)) for arg in arguments]
@@ -30,5 +29,8 @@ if __name__ == "__main__":
         print()
     except :
         erreur()
+
+if __name__ == "__main__":
+    main()
 
     

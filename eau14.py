@@ -13,9 +13,9 @@ def tranform_in_ascii_number(array):
     return word_ascii_number
 
 
-def par_ordre_ascii(array,arguments):
+def par_ordre_ascii(a_trier,arguments):
     for i in range(2,len(a_trier)):
-        if array[i][0] < array[i-1][0]:
+        if a_trier[i][0] < a_trier[i-1][0]:
             arguments[i],arguments[i-1] = arguments[i-1],arguments[i]
 
     return arguments
@@ -34,7 +34,8 @@ def verification_arguments(args):
             ok = True
     return ok
 
-if __name__ == "__main__":
+
+def main():
     arguments = sys.argv[1:]
     if verification_arguments(arguments):
         a_trier = tranform_in_ascii_number(arguments)
@@ -44,3 +45,6 @@ if __name__ == "__main__":
         print()
     else:
         erreur()
+
+if __name__ == "__main__":
+    main()

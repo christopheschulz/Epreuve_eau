@@ -22,10 +22,14 @@ def verification_arguments(args):
 def erreur():
     print("error")
 
-if __name__ == "__main__":
+
+def main():
     arguments = sys.argv[1:]
     if verification_arguments(arguments):
         entre_min_max(arguments)
      
     else:
         erreur()
+
+if __name__ == "__main__":
+    main()
