@@ -3,13 +3,13 @@
 01 Combinaisons de 2 nombres *
 02 Paramètres à l’envers
 03 Suite de Fibonacci
-04
-05
-06
-07
-08
-09
-10
+04 Prochain nombre premier
+05 String dans string
+06 Majuscule sur deux
+07 Majuscule
+08 Chiffres only
+09 Entre min et max
+10 Index wanted
 11
 12
 13
