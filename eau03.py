@@ -8,8 +8,10 @@ def verification_arguments(args):
             ok = True
     return ok
 
+
 def erreur():
     print("-1")
+
 
 def suite_de_fibonacci(nombre)-> list:
     result =[0,1]
@@ -22,7 +24,8 @@ def suite_de_fibonacci(nombre)-> list:
             result.append(result[i-1]+result[i-2])
         return result
 
-if __name__ == "__main__":
+
+def main():
     arguments = sys.argv[1:]
     if verification_arguments(arguments):
         suite = suite_de_fibonacci(arguments[0])
@@ -30,4 +33,9 @@ if __name__ == "__main__":
         print(suite[-1])
     else:
         erreur()
+
+
+if __name__ == "__main__":
+    main()
+    
 
