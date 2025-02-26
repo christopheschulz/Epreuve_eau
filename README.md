@@ -10,8 +10,8 @@
 08 Chiffres only
 09 Entre min et max
 10 Index wanted
-11
-12
-13
-14
-15
+11 Différence minimum absolue
+12 Tri à bulle
+13 Tri par sélection
+14 Par ordre Ascii
+15 terre ok
