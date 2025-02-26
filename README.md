@@ -14,4 +14,4 @@
 12 Tri à bulle
 13 Tri par sélection
 14 Par ordre Ascii
-15 terre ok
+15 eau ok

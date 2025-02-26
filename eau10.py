@@ -1,3 +1,5 @@
+# Index wanted
+
 import sys
 
 arguments = sys.argv[1:]

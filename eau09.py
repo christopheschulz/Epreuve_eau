@@ -1,3 +1,5 @@
+# Entre min et max
+
 import sys
 
 arguments = sys.argv[1:]

@@ -1,3 +1,5 @@
+# Paramètres à l’envers
+
 import sys
 
 
@@ -17,7 +19,7 @@ def affiche(args):
     for arg in args:
         print(arg)
     
-    
+
 def main():
     arguments = sys.argv[1:]
     

@@ -1,3 +1,5 @@
+# Tri par sélection
+
 import sys
 
 def my_select_sort(array):

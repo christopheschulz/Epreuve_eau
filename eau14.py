@@ -1,3 +1,5 @@
+# Par ordre Ascii
+
 import sys
 
 

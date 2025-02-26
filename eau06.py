@@ -1,3 +1,5 @@
+# Majuscule sur deux
+
 import sys
 def une_maj_sur_deux(chaine:str):
     maj = 0

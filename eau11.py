@@ -1,3 +1,5 @@
+# Différence minimum absolue
+
 import sys
 
 arguments = sys.argv[1:]

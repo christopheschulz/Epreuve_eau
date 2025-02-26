@@ -1,3 +1,5 @@
+# Majuscule
+
 import sys
 
 def majuscule(chaine):

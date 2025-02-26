@@ -1,3 +1,5 @@
+# Prochain nombre premier
+
 import sys
 
 def verification_arguments(args):
